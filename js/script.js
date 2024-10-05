@@ -66,7 +66,7 @@ const showDetails = (id) => {
 }
 
 const phoneFeatures = feature => {
-    console.log(feature)
+    // console.log(feature)
     const {image, name, releaseDate, mainFeatures,others} = feature;
     const featureContainer = document.getElementById('feature-container');
     featureContainer.innerHTML = `
